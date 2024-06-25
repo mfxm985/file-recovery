@@ -1,0 +1,45 @@
+
+{
+	"license":
+	{
+		"version":"1.0",
+		"time":"2024-06-22T16:55:00+08:00",
+		"id":"xxxx"
+	},
+	"tasks":
+	[
+	{
+		"task_name": "恢复D盘中误删除的jpg、mp4、docx、pdf文件",
+		"input": "C:",
+		"fs_type": "ntfs",
+		"output": "D:\\",
+		"file_types":
+		[
+		{
+			"extension_name": "jpg|jpeg",
+			"start_code": "FF D8 FF E0",
+			"code_map": "1111",
+			"max_bytes_mega": 1
+		},
+		{
+			"extension_name": "mp4",
+			"start_code": "00 00 00 20 66 79 74 70",
+			"code_map": "11101111",
+			"max_bytes_mega": 888
+		},
+		{
+			"extension_name": "docx",
+			"start_code": "50 4B 03 04",
+			"code_map": "1111",
+			"max_bytes_mega": 30
+		},
+		{
+			"extension_name": "pdf",
+			"start_code": "25 50 44 46 2D",
+			"code_map": "11111",
+			"max_bytes_mega": 30
+		}
+		]
+	}
+	]
+}
