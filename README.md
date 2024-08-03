@@ -13,6 +13,8 @@ Without a license, the recovery progress can only be executed up to 30%.
 
 ![image](https://github.com/mfxm985/file-recovery/assets/3438653/7029a2cb-a9aa-4322-8166-44cbfd703c80)
 
+
 FileRecovery-gui.exe is the GUI version of the program.
+recovery_file_types.json and recovery_license.json are for config this program.
 
 ![image](https://github.com/user-attachments/assets/5368f65b-94da-4acc-b671-51561f629a92)
